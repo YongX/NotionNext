@@ -283,7 +283,7 @@ const LayoutIndex = props => {
   // }, [index, hasRedirected]) // 将 hasRedirected 作为依赖确保状态变更时更新
 
   return (
-    <p>随便看看吧</p>
+    <p className="mt-10">先随便看看吧</p>
   ) // 不渲染任何内容
 }
 
