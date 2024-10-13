@@ -20,7 +20,7 @@ export default function LogoBar(props) {
           width={24}
           height={24}
           alt={siteConfig('AUTHOR')}
-          className='mr-2 hidden md:block '
+          className='mr-2 hidden md:block self-center h-fit'
         />
         {siteInfo?.title || siteConfig('TITLE')}
       </Link>
